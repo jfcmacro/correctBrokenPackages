@@ -1,0 +1,15 @@
+Name:                correctBrokenPackages
+Version:             0.1
+Description:         Trying to put in order the dll's hell of haskell. God help us!
+License:             GPL
+License-file:        LICENSE
+Author:              Juan Francisco Cardona McCormick
+Maintainer:          fcardona@eafit.edu.co
+Build-Type:          Simple
+Cabal-Version:       >=1.2
+
+Executable correctBrokenPackages
+  Main-is:           CorrectBrokenPackages.hs
+  Hs-source-dirs:    src
+  Build-Depends:     base >= 3 && < 5, regex-posix >= 0.94, 
+                     filepath, directory, Cabal > 1.10.0.0, process >= 1.0.1.5
